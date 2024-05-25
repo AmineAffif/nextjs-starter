@@ -10,15 +10,14 @@
     "lint": "tsc --noEmit && eslint '**/*.{js,jsx,ts,tsx}'"
   },
   "dependencies": {
-    "__Cool-components": "Visit https://ui.shadcn.com/ or https://ui.aceternity.com/",
-    "__Charts": "Visit https://recharts.org/en-US/",
-    "__Animated-or-fixed-illustrations": "Visit https://storyset.com/",
-    "__Animated-icons": "Visit https://lottiefiles.com/ or https://lordicon.com/icons/",
-    "__More-icons": "For more icons, visit https://iconduck.com/",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
     "lucide-react": "^0.379.0",
     "next": "14.2.3",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^14.2.3",
