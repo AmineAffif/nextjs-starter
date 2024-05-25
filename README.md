@@ -1,37 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Next.js Starter Project
 
-First, run the development server:
+Ce projet est un template de base pour les applications développées avec Next.js. Il est conçu pour servir de point de départ pour tous vos futurs projets en simplifiant la configuration initiale et en standardisant la structure du code.
+
+## Prérequis
+
+Avant de commencer, assurez-vous d'avoir installé Node.js sur votre machine. Node.js 12.0 ou une version ultérieure est nécessaire pour utiliser Next.js.
+
+## Installation
+
+Pour installer les dépendances du projet, exécutez la commande suivante :
+
+```bash
+npm install
+```
+
+ou si vous utilisez yarn :
+
+```bash
+yarn install
+```
+
+## Configuration
+
+Vous pouvez configurer votre application en modifiant les variables d'environnement. Créez un fichier `.env.local` à la racine du projet et ajoutez vos variables :
+
+```plaintext
+API_URL=https://example.com/api
+```
+
+Remplacez `https://example.com/api` par l'URL de votre choix.
+
+## Démarrage du serveur de développement
+
+Pour lancer le serveur de développement, exécutez :
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ou si vous utilisez yarn :
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+yarn dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Votre application sera accessible à l'adresse [http://localhost:3000](http://localhost:3000).
 
-## Learn More
+## Structure du projet
 
-To learn more about Next.js, take a look at the following resources:
+Voici la structure de base du projet :
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `app/` : Contient les pages de votre application. `app/page.tsx` est la page d'accueil.
+- `components/` : Répertoire pour vos composants réutilisables.
+- `public/` : Pour les fichiers statiques comme les images.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Déploiement
 
-## Deploy on Vercel
+Pour déployer votre application, vous pouvez utiliser Vercel, une plateforme cloud optimisée pour les applications Next.js. Consultez la [documentation officielle de Vercel](https://vercel.com/docs) pour plus d'informations.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Licence
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# nextjs-starter
+Ce projet est sous licence MIT. Pour plus d'informations, consultez le fichier `LICENSE`.
